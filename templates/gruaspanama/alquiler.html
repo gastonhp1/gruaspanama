@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+
+{% load static %}
+
+{% block contenedor %}
+
+<body>
+      <div class="container">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/media/img/grua1.jpg" class="d-block w-100" alt="Grúa">
+            <div class="carousel-caption  d-md-block my-custom-carousel-caption">
+              <div class="col align-self-center overlay-box">
+                <h1 class="display-4 fw-bold text-body-emphasis">Transporte terrestre</h1> 
+                <p class="lead mb-4">Nuestro compromiso es agilizar tus procesos de suministro y garantizar entregas puntuales. Con nuestra flota moderna y personal especializado, puedes confiar en un transporte eficiente y seguro.</p>             
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/media/img/grua2.jpg" class="d-block w-100" alt="Grùa">
+            <div class="carousel-caption d-md-block my-custom-carousel-caption">
+              <div class="col align-self-center overlay-box">
+                <h1 class="display-4 fw-bold text-body-emphasis">Izajes y montajes</h1>
+                <p class="lead mb-4">Expertos en movimientos precisos y seguros. Contamos con equipos especializados listos para elevar, trasladar, subir o bajar tus cargas de manera exitosa.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/media/img/grua3.jpg" class="d-block w-100" alt="Grùa">
+            <div class="carousel-caption d-md-block my-custom-carousel-caption">
+              <div class="col align-self-center overlay-box">
+                <h1 class="display-4 fw-bold text-body-emphasis">Cuadrilla calificada</h1>
+                <p class="lead mb-4">Equipo humano de operadores capacitado para satisfacer tus necesidades precisas de manipulación, planificación y sincronización de cargas de gran porte.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/media/img/grua4.jpg" class="d-block w-100" alt="Grùa">
+            <div class="carousel-caption d-md-block my-custom-carousel-caption">
+              <div class="col align-self-center overlay-box">
+                <h1 class="display-4 fw-bold text-body-emphasis">Almacenaje en depósito</h1>
+                <p class="lead mb-4">Todas tus mercancías están a salvo en nuestro depósito asegurado con vigilancia y monitoreado las 24 hs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/media/img/grua5.jpg" class="d-block w-100" alt="Grùa">
+            <div class="carousel-caption d-md-block my-custom-carousel-caption">
+              <div class="col align-self-center overlay-box">
+                <h1 class="display-4 fw-bold text-body-emphasis">Cargas excepcionales</h1>
+                <p class="lead mb-4">¡El tamaño de tus cargas ya no es un problema! Podemos mover y trasladar cargas especiales de grandes dimensiones y peso en y hasta cualquier punto del país.</p>
+              </div>
+            </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+   </div>
+</body>
+    
+{% endblock  %}

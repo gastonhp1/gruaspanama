@@ -1,0 +1,40 @@
+// Fondo y el color del texto del menú
+.navbar {
+  background-color: $color4;
+  .nav-link {
+    color: $color2;
+    &:hover {
+      color: $color1;
+      background-color: $color5;
+    }
+  }
+}
+
+// Estilos para el dropdown
+.dropdown-menu {
+  background-color: $color4;
+  opacity: 90%;
+  .dropdown-item {
+    color: $color2;
+    &:hover {
+      color: $color1;
+      background-color: $color5;
+    }
+  }
+}
+
+// Fuente del menú
+.navbar-brand,
+.navbar-nav .nav-link,
+.dropdown-item {
+  font-family: $fuente-menu;
+  font-size: $tamano-fuente-menu;
+  font-weight: 100;
+  font-style: normal;
+}
+
+// Estilo de la franja
+.stripe {
+  background: repeating-linear-gradient(-45deg, $color2, $color2 2%, $color4 2%, $color4 4%);
+  height: 8px; // Ajusta la altura de la franja según sea necesario
+}

@@ -1,0 +1,19 @@
+body {
+  background-color: $color5;
+  color: $color1;
+  border-color: $color4;
+}
+
+h1 {
+    color: $color1;
+  }
+
+p {
+    color: $color1
+}
+
+.carousel-item img {
+  max-height: 860px;
+  width: 640px;
+  margin: 0 auto;
+}

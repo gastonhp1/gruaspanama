@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "nav.css",
+	"sources": [
+		"../scss/nav.scss"
+	],
+	"sourcesContent": [
+		".nav{background-color: #0b5ed7}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,IAAI,CAAA;EAAC,gBAAgB,EAAE,OAAO;CAAE"
+}
